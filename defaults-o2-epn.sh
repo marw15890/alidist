@@ -9,6 +9,9 @@ env:
 disable:
   - O2Physics
   - ONNXRuntime
+  - OpenSSL
+  - curl
+  - mesos
 overrides:
   AliPhysics:
     version: '%(commit_hash)s_O2'
